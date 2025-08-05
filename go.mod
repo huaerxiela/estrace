@@ -3,11 +3,11 @@ module estrace
 go 1.18
 
 require (
-	github.com/cilium/ebpf v0.9.3
+	github.com/cilium/ebpf v0.10.0
 	github.com/ehids/ebpfmanager v0.3.0
 	github.com/shuLhan/go-bindata v4.0.0+incompatible
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/sys v0.2.0
+	golang.org/x/sys v0.6.0
 )
 
 replace github.com/cilium/ebpf => ../ebpf
@@ -33,4 +33,5 @@ require (
 require (
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2 // indirect
 )

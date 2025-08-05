@@ -184,7 +184,7 @@ func (this *MapsModule) Run() error {
 	if !found {
 		return errors.New("cannot find soinfo_events map")
 	}
-	rd, err := perf.NewReader(soinfoEventsMap, os.Getpagesize()*64, false, false)
+	rd, err := perf.NewReader(soinfoEventsMap, os.Getpagesize()*64)
 	if err != nil {
 		errChan <- fmt.Errorf("creating %s reader: %s", soinfoEventsMap.String(), err)
 		return nil
