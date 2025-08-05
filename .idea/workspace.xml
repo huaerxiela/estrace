@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c620c4-59cf-4ca2-8f5f-1b8c5faf3ae8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/module/maps_helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/maps_helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/module/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/module.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_CONNMARK.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_CONNMARK.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_DSCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_DSCP.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_MARK.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_MARK.h" afterDir="false" />
@@ -15,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv4/ipt_ECN.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv4/ipt_ECN.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv4/ipt_TTL.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv4/ipt_TTL.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv6/ip6t_HL.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter_ipv6/ip6t_HL.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

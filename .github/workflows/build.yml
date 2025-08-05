@@ -25,18 +25,7 @@ jobs:
 
     - name: Clone dependencies
       run: |
-        cd ..
-        git clone https://github.com/SeeFlowerX/ebpf
-        git clone https://github.com/SeeFlowerX/ebpfmanager
-        cd -
-        mkdir -p external && cd external
-        git clone https://android.googlesource.com/platform/bionic --depth=1
-        mkdir system && cd system
-        git clone https://android.googlesource.com/platform/system/core --depth=1
-        cd ..
-        git clone https://android.googlesource.com/platform/external/libbpf --depth=1
-        cd ..
-        # bash ./build_env.sh
+        bash ./build_env.sh
 
     - name: Set up Go
       uses: actions/setup-go@v4
@@ -55,7 +44,6 @@ jobs:
         export PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH
         go env -w GO111MODULE=on
         go env -w GOPROXY=https://goproxy.cn,direct
-        go mod tidy
         make clean && make
 
     - name: Upload a Build Artifact
