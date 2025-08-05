@@ -184,7 +184,7 @@ func (this *Module) Run() error {
 		return errors.New("cannot find syscall_events map")
 	}
 	// rd, err := perf.NewReader(syscallEventsMap, os.Getpagesize()*512)
-	rd, err := perf.NewReader(syscallEventsMap, os.Getpagesize()*512)
+	rd, err := perf.NewReader(syscallEventsMap, os.Getpagesize()*512, false)
 	if err != nil {
 		errChan <- fmt.Errorf("creating %s reader: %s", syscallEventsMap.String(), err)
 		return nil
