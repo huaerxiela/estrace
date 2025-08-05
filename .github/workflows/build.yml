@@ -55,6 +55,7 @@ jobs:
         export PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH
         go env -w GO111MODULE=on
         go env -w GOPROXY=https://goproxy.cn,direct
+        go mod tidy
         make clean && make
 
     - name: Upload a Build Artifact
