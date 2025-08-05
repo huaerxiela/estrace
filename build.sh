@@ -5,3 +5,6 @@ go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 
 make clean && make
+
+adb push bin/estrace /data/local/tmp
+adb shell chmod +x /data/local/tmp/estrace
