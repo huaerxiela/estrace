@@ -29,6 +29,13 @@ jobs:
         git clone https://github.com/SeeFlowerX/ebpf
         git clone https://github.com/SeeFlowerX/ebpfmanager
         cd -
+        mkdir -p external && cd external
+        git clone https://android.googlesource.com/platform/bionic --depth=1
+        mkdir system && cd system
+        git clone https://android.googlesource.com/platform/system/core --depth=1
+        cd ..
+        git clone https://android.googlesource.com/platform/external/libbpf --depth=1
+        cd ..
         # bash ./build_env.sh
 
     - name: Set up Go
