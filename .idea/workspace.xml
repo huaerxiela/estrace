@@ -7,7 +7,7 @@
     <list default="true" id="70c620c4-59cf-4ca2-8f5f-1b8c5faf3ae8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build_env.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_CONNMARK.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_CONNMARK.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_DSCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_DSCP.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_MARK.h" beforeDir="false" afterPath="$PROJECT_DIR$/external/bionic/libc/kernel/uapi/linux/netfilter/xt_MARK.h" afterDir="false" />
