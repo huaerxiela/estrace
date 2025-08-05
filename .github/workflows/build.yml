@@ -47,13 +47,14 @@ jobs:
       id: setup-ndk
       uses: nttld/setup-ndk@v1
       with:
-        ndk-version: r25c
+        ndk-version: r25b
         local-cache: true
 
     - name: Build
       run: |
         export PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH
-        make clean && BUILD_TAGS=forarm make
+        go env -w GO111MODULE=on
+        go env -w GOPROXY=https://goproxy.cn,direct
         make clean && make
 
     - name: Upload a Build Artifact
